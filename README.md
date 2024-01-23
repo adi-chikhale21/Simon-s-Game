@@ -1,2 +1,2 @@
 # Simon-s-Game
-This is a simon's game file
+This is a simon's game file.
