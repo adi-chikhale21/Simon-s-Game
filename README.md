@@ -1,1 +1,1 @@
-This is a Simon's Game.cl
+This is a Simon's Game.
