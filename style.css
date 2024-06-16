@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+    transition: background-color 0.2s;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+}
+
+#red {
+    background-color: rgb(198, 79, 79);
+}
+
+#grey {
+    background-color: grey;
+}
+
+#green {
+    background-color: yellowgreen;
+}
+
+#purple {
+    background-color: rgb(167, 78, 167);
+}
+
+.flashBtn {
+    background-color: white !important;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        height: 150px;
+        width: 150px;
+        margin: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        margin: 0.25rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+}
